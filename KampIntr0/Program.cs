@@ -6,7 +6,19 @@ namespace KampIntr0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            bool sistemGirisi = true;
+
+            if (sistemGirisi == true)
+            {
+                Console.WriteLine("Giriş başarılı");
+
+            }
+            else
+            {
+                Console.WriteLine("Giriş yap butonu");
+            }
+
+            Console.ReadLine();
         }
     }
 }
