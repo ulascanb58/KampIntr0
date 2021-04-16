@@ -9,7 +9,12 @@ namespace GameOdev5.Concrete
     class CustomerManager:ICustomerService
     {
         
-        CustomerValidationManager customerValidationManager = new CustomerValidationManager();
+        CustomerValidationManager customerValidationManager;// = new CustomerValidationManager();
+
+        public CustomerManager(CustomerValidationManager customerValidationManager)
+        {
+            this.customerValidationManager = customerValidationManager;
+        }
 
         public void Register(Customer customer)
         {

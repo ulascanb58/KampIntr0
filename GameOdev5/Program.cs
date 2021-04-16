@@ -8,7 +8,7 @@ namespace GameOdev5
     {
         static void Main(string[] args)
         {
-            CustomerManager customerManager=new CustomerManager();
+            CustomerManager customerManager=new CustomerManager(new CustomerValidationManager());
             
             Customer musteri1=new Customer();
             musteri1.FirstName = "Ulaş";

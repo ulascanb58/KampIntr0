@@ -6,7 +6,7 @@ using GameOdev5.Entity;
 
 namespace GameOdev5.Concrete
 {
-    class CustomerValidationManager:ICustomerValidation
+   class CustomerValidationManager:ICustomerValidation
     {
         public bool CheckIfRealPerson(Customer customer)
         {
